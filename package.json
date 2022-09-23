@@ -1,0 +1,25 @@
+{
+  "name": "regions-of-indonesia",
+  "version": "1.0.0",
+  "description": "Regions of Indonesia",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": "https://github.com/regions-of-indonesia/regions-of-indonesia.git",
+  "author": "flamrdevs <flamrdevs@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "release-it": "^15.4.2"
+  }
+}
